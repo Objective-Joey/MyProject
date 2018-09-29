@@ -13,6 +13,7 @@
  转场动画
  https://github.com/oujinlong/OJLGWL
  https://github.com/YouXianMing/YoCelsius#fork-destination-box
+ https://github.com/newyjp/JPAnimation
  GIF动画
  https://github.com/Flipboard/FLAnimatedImage
  教程

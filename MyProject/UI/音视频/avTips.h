@@ -12,6 +12,7 @@
  https://github.com/tangdiforx/TTAVPlayer
  https://github.com/zhengwenming/WMPlayer
  https://github.com/stlndm/linke
+ https://github.com/pili-engineering/PLPlayerKit
  */
 
 #endif /* avTips_h */

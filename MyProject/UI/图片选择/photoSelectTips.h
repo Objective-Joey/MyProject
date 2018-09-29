@@ -10,6 +10,7 @@
 #define photoSelectTips_h
 /*
  https://github.com/chiunam/CTAssetsPickerController
+ https://github.com/banchichen/TZImagePickerController
  */
 
 #endif /* photoSelectTips_h */

@@ -30,7 +30,7 @@
 		F9017091215A2D2B000F457E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9017093215A2D2B000F457E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9017094215A2D2B000F457E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F90170AA215A5907000F457E /* Tips.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tips.h; sourceTree = "<group>"; };
+		F90170AA215A5907000F457E /* dataTips.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dataTips.h; sourceTree = "<group>"; };
 		F90170B1215CE03F000F457E /* HttpTips.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpTips.h; sourceTree = "<group>"; };
 		F90170B9215F6836000F457E /* cipherTips.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cipherTips.h; sourceTree = "<group>"; };
 		F90170BB215F6C6B000F457E /* chartTips.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chartTips.h; sourceTree = "<group>"; };
@@ -61,6 +61,9 @@
 		F90170F3215F8C11000F457E /* cycleTips.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cycleTips.h; sourceTree = "<group>"; };
 		F90170F4215F8D92000F457E /* learnTips.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = learnTips.h; sourceTree = "<group>"; };
 		F90170F5215F8E30000F457E /* utilTips.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utilTips.h; sourceTree = "<group>"; };
+		F90170F7215F9358000F457E /* fileTips.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fileTips.h; sourceTree = "<group>"; };
+		F90170F9215F9572000F457E /* netStatusTips.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = netStatusTips.h; sourceTree = "<group>"; };
+		F90170FB215F9777000F457E /* coreDataTips.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = coreDataTips.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				F9017085215A2D2B000F457E /* AppDelegate.h */,
+				F90170F4215F8D92000F457E /* learnTips.h */,
 				F9017086215A2D2B000F457E /* AppDelegate.m */,
 				F9017088215A2D2B000F457E /* ViewController.h */,
 				F9017089215A2D2B000F457E /* ViewController.m */,
@@ -122,12 +126,11 @@
 				F9017090215A2D2B000F457E /* LaunchScreen.storyboard */,
 				F9017093215A2D2B000F457E /* Info.plist */,
 				F9017094215A2D2B000F457E /* main.m */,
+				F90170F6215F9274000F457E /* 框架搭建 */,
 				F90170DF215F81E4000F457E /* 性能优化 */,
-				F90170F0215F8B33000F457E /* 崩溃捕捉 */,
 				F90170D6215F7A47000F457E /* 工具 */,
 				F90170BD215F6EE6000F457E /* 第三方 */,
 				F90170B7215F23BB000F457E /* CommonTool */,
-				F90170B6215F204D000F457E /* MVVM */,
 				F90170A9215A4236000F457E /* 动画 */,
 				F90170A7215A41DC000F457E /* UI */,
 				F90170A6215A41C6000F457E /* 文件操作 */,
@@ -135,7 +138,6 @@
 				F90170A4215A418D000F457E /* 设备信息 */,
 				F90170A1215A411C000F457E /* 数据存储 */,
 				F901709B215A4061000F457E /* NetWork */,
-				F90170F4215F8D92000F457E /* learnTips.h */,
 			);
 			path = MyProject;
 			sourceTree = "<group>";
@@ -156,6 +158,7 @@
 		F901709C215A4075000F457E /* 网络监控 */ = {
 			isa = PBXGroup;
 			children = (
+				F90170F9215F9572000F457E /* netStatusTips.h */,
 			);
 			path = "网络监控";
 			sourceTree = "<group>";
@@ -192,7 +195,8 @@
 		F90170A1215A411C000F457E /* 数据存储 */ = {
 			isa = PBXGroup;
 			children = (
-				F90170AA215A5907000F457E /* Tips.h */,
+				F90170AA215A5907000F457E /* dataTips.h */,
+				F90170FA215F9761000F457E /* CoreData */,
 				F90170AD215B638F000F457E /* KeyChain */,
 				F90170AC215B5FE8000F457E /* 数据缓存 */,
 				F90170A3215A4138000F457E /* 数据库 */,
@@ -233,6 +237,7 @@
 		F90170A6215A41C6000F457E /* 文件操作 */ = {
 			isa = PBXGroup;
 			children = (
+				F90170F7215F9358000F457E /* fileTips.h */,
 			);
 			path = "文件操作";
 			sourceTree = "<group>";
@@ -240,8 +245,8 @@
 		F90170A7215A41DC000F457E /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				F90170F2215F8C01000F457E /* 轮播图 */,
 				F90170BC215F6E52000F457E /* UITips.h */,
+				F90170F2215F8C01000F457E /* 轮播图 */,
 				F90170D7215F7A58000F457E /* 图形码 */,
 				F90170EE215F8A6F000F457E /* collectionView */,
 				F90170EC215F892E000F457E /* 音视频 */,
@@ -439,6 +444,7 @@
 		F90170D6215F7A47000F457E /* 工具 */ = {
 			isa = PBXGroup;
 			children = (
+				F90170FC215F9F7A000F457E /* 文件日志 */,
 				F90170DC215F7F2E000F457E /* Git */,
 				F90170D9215F7EA8000F457E /* 正则 */,
 			);
@@ -473,6 +479,7 @@
 			isa = PBXGroup;
 			children = (
 				F90170E1215F81FF000F457E /* fixTIps.h */,
+				F90170F0215F8B33000F457E /* 崩溃捕捉 */,
 			);
 			path = "性能优化";
 			sourceTree = "<group>";
@@ -531,6 +538,29 @@
 				F90170F3215F8C11000F457E /* cycleTips.h */,
 			);
 			path = "轮播图";
+			sourceTree = "<group>";
+		};
+		F90170F6215F9274000F457E /* 框架搭建 */ = {
+			isa = PBXGroup;
+			children = (
+				F90170B6215F204D000F457E /* MVVM */,
+			);
+			path = "框架搭建";
+			sourceTree = "<group>";
+		};
+		F90170FA215F9761000F457E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F90170FB215F9777000F457E /* coreDataTips.h */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		F90170FC215F9F7A000F457E /* 文件日志 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "文件日志";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

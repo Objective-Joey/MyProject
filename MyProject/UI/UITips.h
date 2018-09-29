@@ -20,6 +20,7 @@
  https://github.com/StrongX/XSpotLight
  APP跳转
  https://github.com/button/DeepLinkKit
+ https://github.com/meili/MGJRouter
  webView进度
  https://github.com/ninjinkun/NJKWebViewProgress
  swift

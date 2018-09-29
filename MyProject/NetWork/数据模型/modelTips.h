@@ -14,5 +14,8 @@
  https://github.com/johnezang/JSONKit
  https://github.com/robbiehanson/KissXML
  https://github.com/Mantle/Mantle
+ 
+ protobuf
+ https://github.com/protocolbuffers/protobuf/tree/master/objectivec
  */
 #endif /* modelTips_h */

@@ -32,6 +32,7 @@
  https://github.com/andreamazz/AMPopTip
  https://github.com/xiekw2010/DXPopover
  https://github.com/lyb5834/YBPopupMenu
+ https://github.com/scalessec/Toast
  nav弹框
  https://github.com/DrummerB/BFNavigationBarDrawer
  */
