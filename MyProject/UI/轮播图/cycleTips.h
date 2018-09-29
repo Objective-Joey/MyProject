@@ -13,6 +13,7 @@
  https://github.com/stackhou/YJBannerViewOC
  https://github.com/gsdios/SDCycleScrollView
  广告提示
+ https://github.com/tingxins/TXScrollLabelView
  https://github.com/kingsic/SGAdvertScrollView
  卡片展示
  https://github.com/nicklockwood/iCarousel

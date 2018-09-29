@@ -14,6 +14,7 @@
  https://github.com/kingsic/SGPagingView
  https://github.com/dzenbot/DZNSegmentedControl
  https://github.com/r9ronaldozhang/ZYColumnViewController
+ https://github.com/SemiconlonWang/HMSegmentedControl
  */
 
 #endif /* pageVCTips_h */
